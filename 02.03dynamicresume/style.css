@@ -1,0 +1,99 @@
+
+body {
+    background-image: url(https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(151, 145, 145);
+    text-shadow: 3px 3px 5px rgb(23, 214, 189);
+    text-decoration: dotted;
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203,185,185,0.5);
+    border-radius: 8px; 
+    border: 5px groove rgba(160, 1, 233, 0.959);
+    box-shadow:  3px 3px 8px rgb(23, 214, 189);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid rgb(134, 119, 131);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #0ebbb2;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #dce1e6;
+}
+
+input, textarea {
+    width: calc(100% - 1px);  
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid rgb(250, 255, 243);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 90px;
+    height: 70px;  
+    padding: 10px;
+    background: rgb(138, 10, 243);
+    color: white;
+    border: 3px solid rgb(103, 4, 196);
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgb(0, 174, 201);
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+
+button:hover {
+    background-color: rgb(17, 189, 219);
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 5px groove rgba(160, 1, 233, 0.959);
+    border-radius: 8px;
+    box-shadow:  3px 3px 8px rgb(23, 214, 189);
+    background: rgba(203, 185, 185, 0.5);
+}
+
+#resumeOutput h2 {
+    color: rgb(102, 26, 121);
+    
+}
+
+ul {
+    list-style-type: disc; 
+    margin-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+

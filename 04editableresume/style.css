@@ -1,0 +1,116 @@
+
+body {
+    font-family: Georgia;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/017/104/431/original/purple-green-light-streaks-bright-neon-rays-transfer-data-network-stage-screen-background-concept-video.jpg);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+   
+    font-family: Georgia;
+    text-align: center;
+    color: rgba(202, 188, 204, 0.616);
+    text-shadow: 3px 3px 5px rgb(82, 230, 156);
+    text-decoration: dotted;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203,185,185,0,.5);
+    border-radius: 8px;
+   
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203,185,185,0,.5);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color:rgba(28, 199, 199, 0.959);
+    border-style: groove;
+    box-shadow: 0 4px 8px rgb(82, 230, 156);
+    padding: 20px;
+    background: rgba(104, 219, 210, 0.5);
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+   display: block;
+   width: 90px;
+   height: 70;
+   padding: 10px;
+   background-color:#2aa3acc2;
+   color: white;
+   border: 3px solid #335757f5;
+   border-radius:4px ;
+   cursor: pointer;
+   box-shadow: 3px 3px 8px rgb(25, 27, 27);
+   margin-top: 10px;
+   font-size: 15px ;
+   font-family: Georgia;
+   margin-right: 30px;
+}
+
+button:hover {
+    background-color: #111312;
+    
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203,185,185,0,.5);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color:rgba(28, 199, 199, 0.959);
+    border-style: groove;
+    box-shadow: 0 4px 8px rgb(82, 230, 156);
+    padding: 20px;
+    background: rgba(104, 219, 210, 0.5);
+}
+
+#resumeOutput h2 {
+    font-family: Georgia;
+    text-align: center;
+    color: rgba(202, 188, 204, 0.616);
+    text-shadow: 3px 3px 5px rgb(82, 230, 156);
+    text-decoration: dotted;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203,185,185,0,.5);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color:rgba(28, 199, 199, 0.959);
+    border-style: groove;
+    box-shadow: 0 4px 8px rgb(82, 230, 156);
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/017/104/431/original/purple-green-light-streaks-bright-neon-rays-transfer-data-network-stage-screen-background-concept-video.jpg) ;
+   
+}
+
+#resumeOutput li {
+    margin-bottom: 10px;
+}
+#resumeOutput ol {
+    margin-left: 20px; 
+}
+#resumeOutput ul {
+    margin-left: 20px; 
+    list-style-type: disc; 
+}
+

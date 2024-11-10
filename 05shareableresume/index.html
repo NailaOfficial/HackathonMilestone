@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shareable Resume</title>
+</head>
+<body>
+
+    <div class="resume-container">
+        <h1>Shareable Resume Generator</h1>
+        <form id="Resumeform">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name: </label>
+                <input type="text" id="name" required>
+                <label for="email">Email: </label>
+                <input type="email" id="email" required>
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Education</legend>
+                <label for="education">Education</label>
+                <textarea id="education" name="education" rows="4" required></textarea>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Experience</legend>
+                <label for="experience">Experience</label>
+                <textarea id="experience" name="experience" rows="4" required></textarea>
+            </fieldset>
+           
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="skills">Skills</label>
+                <textarea id="skills" name="skills" rows="4" required></textarea>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Upload Profile Picture</legend>
+                <label for="fileUpload">Choose a file:</label>
+                <input type="file" id="fileUpload" accept="image/*"><br>
+                <img id="profileImage" style="display:none; max-width:100px; border-radius:50%; margin-top:10px;">
+            </fieldset>
+           
+            <button type="submit">Generate Resume</button>
+            <button type="button" id="shareLink">Get Shareable Link</button>
+            <button type="button" id="downloadPDF">Download PDF</button>
+        </form>
+    
+        <div id="resumeOutput"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
